@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 0, 174);
+    size: 150px;
+    height: 25vh;
+    border:1px solid rgb(255, 0, 174);
+}
+
+body{
+    background-image: url(assets/fundo\ rosa.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.titulo{
+    margin-bottom: -15px;
+    font-size: 50px;
+    color: black;
+    font-family: 'Rock Salt', cursive;
+}
+
+.subtitulo{
+    color: black;
+    text-decoration: none;
+}
+
+.titulosub{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+.carrinho{
+    width: 45px;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 580px;
+}
+
+.imgsite{
+    width: 120vh;
+    margin-left: 532px;
+}
+
+.sessao_primaria-botao{
+    margin-left: 60px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(255, 0, 174);
+    color: black;
+    font-family: 'Quicksand';
+}
+
+.titulo-img{
+    margin-top: -280px;
+    margin-left: 55px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.subtitulo-img{
+    margin-top: 8px;
+    margin-left: 55px;
+    font-family: 'Quicksand';
+}
+
+.fundo-roupas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 55px;
+    margin-top: 250px;
+}
+
+.blusaAG{
+    width: 50vh;
+}
+
+.fundo-roupas2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 55px;
+    margin-top: 250px;
+}
+
+.blusaTAY{
+    width: 50vh;
+}
+
+.fundo-roupas3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 55px;
+    margin-top: 250px;
+}
+
+.blusaJUSB{
+    width: 50vh;
+}
+
+#alinhar-roupa{
+    display: flex;
+    gap: 50px;
+}
+
+#alinhar-roupa div img {
+    transition: .5s;
+}
+#alinhar-roupa div:hover img {
+
+    transform: scale(1.2);
+
+}
+
+.descriçao-blusaAG{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: 585px;
+    margin-left: -1174px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.descriçao-blusaTAY{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: 585px;
+    margin-left: 55px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.descriçao-blusaJUSB{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: 585px;
+    margin-left: 55px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.preço{
+    font-family: 'Quicksand';
+}
+
+#alinhar-roupa2{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.fundo-roupas4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 55px;
+    margin-top: 200px;
+}
+
+.moletomAG{
+    width: 55vh;
+}
+
+.fundo-roupas5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 470px;
+    margin-top: -335px;
+}
+
+.moletomTAY{
+    width: 60vh;
+}
+
+.fundo-roupas6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 880px;
+    margin-top: -335px;
+}
+
+.moletomJUSB{
+    width: 50vh;
+}
+
+#alinhar-roupas2 div img {
+    transition: .5s;
+}
+
+#alinhar-roupas2 div:hover img {
+
+    transform: scale(1.2);
+}
+
+.descriçao-molAG{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: 0px;
+    margin-left: 55px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.descriçao-molTAY{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: -90px;
+    margin-left: 470px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.descriçao-molJUSB{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: -90px;
+    margin-left: 880px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.preço{
+    font-family: 'Quicksand';
+}
+
+#alinhar-roupas3 div img {
+    transition: .5s;
+}
+#alinhar-roupas3 div:hover img {
+
+    transform: scale(1.2);
+
+}
+
+.fundo-roupas7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 55px;
+    margin-top: 200px;
+}
+
+.cdAG{
+    width: 65vh;
+}
+
+.fundo-roupas8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 470px;
+    margin-top: -335px;
+}
+
+.cdTAY{
+    width: 50vh;
+}
+
+.fundo-roupas9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 50vh;
+    height: 55vh;
+    background: linear-gradient(rgba(255, 0, 157, 0.201), rgba(112, 1, 112, 0.34));
+    margin-left: 880px;
+    margin-top: -335px;
+}
+
+.cdJUSB{
+    width: 50vh;
+}
+
+.descrição-cdAG{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: -1px;
+    margin-left: 55px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.descrição-cdTAY{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: -90px;
+    margin-left: 470px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.descrição-cdJUSB{
+    height: 13vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 174);
+    margin-top: -90px;
+    margin-left: 880px;
+    font-family: 'Rock Salt', cursive;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.preço{
+    font-family: 'Quicksand';
+}
+
+#cadastro{
+    background: rgba(255, 0, 174, 0.491);
+    size: 200px;
+    height: 80vh;
+    border:1px solid rgb(255, 0, 174);
+    margin-top: 20vh;
+}
+
+.imgtayarijusb{
+    width: 115vh;
+    height: 85vh;
+    margin-top: -30px;
+    
+}
+
+#email{
+    margin-top: -310px;
+}
+
+#E-mail{
+    margin-left: 750px;
+   width: 370px;
+   height: 40px;
+   text-align: center;
+   font-size: 20px;
+}
+
+.texto-email{
+    margin-left: 750px;
+   width: 370px;
+   height: 40px;
+   font-family: 'Quicksand';
+   text-align: center;
+   font-size: 20px;
+}
+
+#finalsite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 0, 174);
+    size: 150px;
+    height: 25vh;
+    border:1px solid rgb(255, 0, 174);
+    font-family: 'Quicksand';
+    font-size: 15px;
+}
+
+#btn {
+    margin-left: 860px;
+   width: 150px;
+   height: 40px;
+   text-align: center;
+   font-size: 20px;
+   background-color: palevioletred;
+   color: pink;
+   text-shadow: 1px 1px 1px black;
+}
+
+#carrinhopag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 0, 174);
+    size: 150px;
+    height: 10vh;
+    border:1px solid rgb(255, 0, 174);
+}
+
+.tituloshoppingcart{
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+}
+
+.subtituloshoppingcart{
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+#finalcarrinhopag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 0, 174);
+    size: 150px;
+    height: 10vh;
+    border:1px solid rgb(255, 0, 174);
+    margin-bottom: -150px;
+}
+
+.direitosetermos{
+    font-family: 'Quicksand';
+}
